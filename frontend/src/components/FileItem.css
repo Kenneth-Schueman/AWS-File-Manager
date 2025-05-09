@@ -1,0 +1,53 @@
+.file-item {
+  border-radius: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.file-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.file-avatar {
+  margin-right: 16px;
+}
+
+.file-avatar-directory {
+  background-color: #bbdefb;
+}
+
+.file-avatar-file {
+  background-color: #ffcdd2;
+}
+
+.file-icon {
+  color: #ffffff;
+}
+
+.file-actions {
+  display: flex;
+  align-items: center;
+}
+
+.star-button {
+  margin-right: 4px;
+}
+
+.star-icon {
+  color: #f57c00;
+}
+
+.star-outline-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  margin-right: 8px;
+  font-size: 20px;
+}
