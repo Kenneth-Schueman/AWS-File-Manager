@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'express'; //imported application
 import cors from 'cors';
 import morgan from 'morgan';
 import config from './config/config';
@@ -8,7 +8,7 @@ import { errorHandler, notFoundHandler } from './middleware/errorHandler';
 // Create Express application
 const app = express();
 
-// Configure middleware
+// Setup the middleware
 app.use(cors({
   origin: config.cors.origin,
   credentials: true
