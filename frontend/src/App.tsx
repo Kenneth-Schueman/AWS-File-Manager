@@ -118,13 +118,22 @@ function FileManagerApp() {
         </ListItem>
       </List>
       <Divider />
-      <div className="storage-info">
+      {/* <div className="storage-info">
         <Typography variant="body2" color="text.secondary">
           Local Storage
         </Typography>
         <div className="storage-container">
           <StorageIcon className="storage-icon" />
           <Typography variant="body2">Local Disk</Typography>
+        </div>
+      </div> */}
+      <div className="storage-info">
+        <Typography variant="body2" color="text.secondary">
+          AWS Storage
+        </Typography>
+        <div className="storage-container">
+          <StorageIcon className="storage-icon" />
+          <Typography variant="body2">AWS S3</Typography>
         </div>
       </div>
     </>
